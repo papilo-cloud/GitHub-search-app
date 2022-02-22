@@ -1,0 +1,393 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 25px;
+    background: #e3e4e9;
+    font-family: "Inder", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    transition: .4s;
+}
+.dark body 
+{
+    background-color: #1e2a47;
+}
+html 
+{
+    scroll-behavior: smooth;
+}
+.container
+{
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    color: #6b6b6b;
+    word-spacing: 3px;
+  
+}
+.dark 
+{
+    color: #bbb;
+    background-color: #1b2335;
+}
+#bdy .header
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s;
+    margin-bottom: 1rem;
+}
+.p
+{
+    position: absolute;
+    width: 100px;
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
+  .mode 
+{
+  
+    position: absolute;
+    right: 0;
+    top: -8px;
+    width: 50px;
+    padding: 12px;
+    background-image: url("Assets/icon-moon.svg");
+    background-repeat: no-repeat;
+   
+}
+.dark .mode
+{
+    /* width: 50px;
+    padding: 12px;
+    position: relative; */
+    background-image: url("Assets/icon-sun.svg");
+}
+
+ .p .btn::before
+{
+    left: 0;
+    content: 'Dark';
+    position: absolute;
+}
+.dark .p .btn::before
+{
+    content: 'Light';
+    position: absolute;
+}
+.dark .header
+{
+    color: #fff;
+   
+}
+
+.container .form, .container .main
+{
+    position: relative;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+    transition: .3s;
+}
+.dark .form, .dark .main
+{
+    background-color: #1e2a47;
+}
+.container .form
+{
+    padding: 5px 5px 5px 15px;
+    margin-bottom: 1rem;
+}
+form
+{
+    position: relative;
+    background-color: inherit;
+    align-items: center;
+    width: 100%;
+}
+ .form input
+{
+    position: relative;
+    font-size: 12px;
+    border: none;
+    padding: 13px;
+    width: 65%;
+    outline: none;
+    background-color: transparent;
+    transition: .3s;
+}
+.dark .form input::placeholder
+{
+    color: #fff;
+}
+.form img 
+{
+    /* position: absolute; */
+    width: 14px;
+    margin: 0;
+}
+ .form button
+{
+    position: relative;
+    float: right;
+    border: none;
+    outline: none;
+    padding: 13px ;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #fff;
+    background: #4487f3;
+    cursor: pointer;
+}
+.dark .form button
+{
+    color: #fff;
+}
+.main
+{
+    display: flex;
+    padding: 20px ;
+    flex-direction: column;
+}
+.main1
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+.main1 .img 
+{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background: #e0e5f0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img img 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.main1 .msg
+{
+    margin-left: 30px;
+    padding: 0;
+}
+.container .msg p,.container .msg h2
+{
+    margin: 0;
+    line-height: 30px;
+    transition: .3s;
+}
+.msg h2 
+{
+    color: #000;
+    transition: .3s;
+}
+.dark .msg h2 
+{
+    color: #fff;
+}
+.dark .msg p
+{
+    color: #bbb;
+}
+.msg > div p, .dark .msg > div p
+{
+    color: #4487f3;
+}
+.demo p
+{
+    line-height: 20px;
+}
+.container .data 
+{
+    position: relative;
+    display: flex;
+    /* font-size: 10px; */
+    justify-content: space-between;
+    padding: 12px 20px;
+    background-color: #e3e4e9;
+    border-radius: 12px;
+    transition: .3s;
+}
+.dark .data
+{
+    background-color: #1b2335;
+}
+.data h2
+{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.data span
+{
+    margin-top: 5px;
+    font-size: 16px;
+    color: #000;
+    transition: .3s;
+}
+.dark .data span 
+{
+    color: #fff;
+}
+.foot
+{
+    position: relative;
+    margin-top: 1rem;
+}
+.foot p
+{
+    display: flex;
+    align-items: center;
+  
+}
+.container .foot svg 
+{
+    margin-right: 15px;
+    fill: #4b6a9b;
+    transition: .3s;
+}
+.dark .foot svg 
+{
+    fill: #fff;
+}
+.avail , .avail .dark .foot svg
+{
+    color: #a1a8b4;
+    fill: #a1a8b4;
+}
+
+.dark .avail{
+    color: #2b3442;
+}
+@media screen and (min-width: 768px) 
+{
+    .foot
+    {
+        display: flex;
+        /* justify-content: space-between; */
+        
+    }
+    .form img 
+    {
+        width: 17px;
+    }
+    .main1 .img 
+    {
+        width: 160px;
+        height: 160px;
+    }
+    .foot > div 
+    {
+        margin-right: 4rem;
+    }
+    body 
+    {
+        font-size: 17px;
+    }
+    .form button, .form input 
+    {
+        font-size: 20px;
+        padding: 16px;
+    }
+    .form input 
+    {
+        width: 80%;
+    }
+    .msg p, .msg h2
+    {
+        margin: 0;
+        line-height: 30px;
+       
+    }
+    .demo p 
+    {
+        line-height: 30px;
+    }
+    .data h2
+    {
+        font-size: 15px;    
+        line-height: 30px;
+        align-items: flex-start;
+    }
+    .data span
+    {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) 
+{
+    .container, #bdy .header
+    {
+        width: 920px;
+    }
+    .main
+    {
+        padding: 3rem;
+    }
+     .msg
+    {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .data
+    {
+        width: 600px;
+        align-self: flex-end;
+        
+    }
+    .foot, .demo
+    {
+        width: 600px;
+        align-self: flex-end;
+        margin-left: 40px;
+    }
+    .img
+    {
+        margin-right: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
