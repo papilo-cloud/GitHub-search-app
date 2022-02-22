@@ -65,8 +65,8 @@ To learn more about APIs
 ## Author
 
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/papilo-cloud)
-- Twitter - [@yourusername](https://www.twitter.com/@Abdulra75754192)
+- Frontend Mentor - [@papilo-cloud](https://www.frontendmentor.io/profile/papilo-cloud)
+- Twitter - [@Abdulra75754192](https://www.twitter.com/@Abdulra75754192)
 
 
 
