@@ -217,6 +217,11 @@ form
 {
     color: #4487f3;
 }
+.demo 
+{
+    position:relative;
+    overflow:auto;
+}
 .demo p
 {
     line-height: 20px;
@@ -296,6 +301,11 @@ form
     {
         width: 17px;
     }
+     .form input
+    {
+       background-position: 10px 15px;
+       padding: 16px 40px;
+    }
     .main1 .img 
     {
         width: 160px;
@@ -312,7 +322,7 @@ form
     .form button, .form input 
     {
         font-size: 20px;
-        padding: 16px;
+/*         padding: 16px; */
     }
     .form input 
     {
