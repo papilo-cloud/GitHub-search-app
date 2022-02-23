@@ -127,6 +127,10 @@ form
     outline: none;
     background-color: transparent;
     transition: .3s;
+    background-image: url("Assets/icon-search.svg");
+    background-position: 10px 10px;
+    padding-left: 45px;
+    background-repeat: no-repeat;
 }
 .dark .form input::placeholder, .dark .form input
 {
