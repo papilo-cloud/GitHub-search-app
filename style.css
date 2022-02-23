@@ -120,7 +120,7 @@ form
  .form input
 {
     position: relative;
-    font-size: 12px;
+    font-size: 14px;
     border: none;
     padding: 13px;
     width: 65%;
@@ -128,7 +128,7 @@ form
     background-color: transparent;
     transition: .3s;
 }
-.dark .form input::placeholder
+.dark .form input::placeholder, .dark .form input
 {
     color: #fff;
 }
