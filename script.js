@@ -28,9 +28,9 @@ mode.onclick = function () {
 // getFile('https://api.github.com/users/bradtraversy')
 
 async function getFile(file) {
-    let x = await fetch(file);
-    let y = await x.json()
-    console.log(y)
+    let data = await fetch(file);
+    let y = await data.json()
+//     console.log(y)
 
     if (y == null) {
         this.innerHTML = 'Not available'
@@ -90,13 +90,7 @@ async function getFile(file) {
      else{
         id4.innerHTML = y.company
      }
-    //     id1.innerHTML = y.location
-    //     id2.innerHTML = y.blog
-    //     
-    //     id4.innerHTML = y.company
-    // }
-    
-    
+  
 }
 
 
