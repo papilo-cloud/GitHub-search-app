@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub-search-app](https://papilo-cloud.github.io/GitHub-User-search-app/)
-- Live Site URL: [GitHub-search-app](https://(https://papilo-cloud.github.io/GitHub-search-app/?# )
+- Live Site URL: [GitHub-search-app](https://papilo-cloud.github.io/GitHub-search-app/?# )
 
 ##My process
 ### Built with
